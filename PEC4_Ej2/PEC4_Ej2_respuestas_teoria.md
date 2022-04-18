@@ -35,12 +35,19 @@
 >
 > **El subdirectorio app contiene los archivos de componentes en los que se definen la lógica y los datos de la aplicación.**
 >
-> **El subdirectorio assets contiene imágenes y otros archivos de activos que se copiarán tal cual cuando se crea la  aplicación.**
+> **El subdirectorio assets contiene imágenes y otros archivos de activos que se copian tal cual cuando se crea la  aplicación.**
 >
 > **El subdirectorio environments contiene opciones de configuración de compilación para entornos de destino particulares. De forma predeterminada, existe un entorno de desarrollo estándar sin nombre y un entorno de producción ("prod"). Se pueden definir configuraciones de entorno de destino adicionales.**
 
 > P2. (0.25 puntos) Explica cada uno de los siguientes decoradores generados por Angular CLI, detallando cada una de las propiedades que se definen en:
 > - app.module.ts - @NgModule (declarations, imports, providers, bootstrap).
+>
+> **Define el módulo raíz, llamado AppModule, que le dice a Angular cómo ensamblar la aplicación. Inicialmente declara solo AppComponent. A medida que se agregan más componentes a la aplicación, deben declararse aquí.**
+>
 > - app.component.ts - @Component (selector, templateUrl, styleUrls).
+>
+> **Define la lógica del componente raíz de la aplicación, denominado AppComponent. La vista asociada con este componente raíz se convierte en la raíz de la jerarquía de vistas a medida que se agregan componentes y servicios a la aplicación.**
 
 > P3. (0.25 puntos) ¿Es posible poder inyectar el template y los estilos en línea de un componente sin necesidad de especificarlos en templateUrl, styleUrls? ¿Es recomendable hacer esto?
+>
+> **Es posible inyectar el template y estilos en línea sin especificarlos en templateUrl y styleUrls. Por ejemplo, se pueden añadir estilos a un componente, ademas de con styleUrls, haciéndolo en línea en la plantilla HTML o con CSS imports. También se puede definir el HTML directamente en el componente con el atributo template en lugar de indicar la url del archivo app.component.html en el atributo templateUrl.**
