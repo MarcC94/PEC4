@@ -12,7 +12,7 @@
 > - .gitignore
 > - …
 >
-> **Archivos de configuración del espacio de trabajo**
+> **Archivos de configuración del espacio de trabajo.**
 >
 > **Todos los proyectos dentro de un espacio de trabajo comparten un contexto de configuración CLI. El nivel superior del espacio de trabajo contiene archivos de configuración de todo el espacio de trabajo, archivos de configuración para la aplicación de nivel raíz y subcarpetas para los archivos de prueba y origen de la aplicación de nivel raíz.** 
 >
