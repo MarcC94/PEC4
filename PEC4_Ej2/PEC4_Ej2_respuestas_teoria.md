@@ -2,7 +2,7 @@
 >
 > P1. (0.75 puntos) ¿Qué comando debes utilizar para crear un nuevo proyecto Angular utilizando Angular CLI denominado vinoteca? (A las preguntas que te haga Angular CLI puedes contestar utilizando las opciones por defecto). Explica brevemente la estructura y ficheros que ha generado Angular CLI:
 >
-> **El comando que hay que utilizar**
+> **El comando que hay que utilizar es ng new. En este caso, para crear un nuevo proyecto llamado vinoteca tendremos que escribir el código ng new vinoteca**
 >
 > Ficheros de configuración en la raíz del proyecto:
 > - tsconfing.app.json
@@ -12,7 +12,12 @@
 > - .gitignore
 > - …
 >
+> **Archivos de configuración del espacio de trabajo**
+> **Todos los proyectos dentro de un espacio de trabajo comparten un contexto de configuración CLI. El nivel superior del espacio de trabajo contiene archivos de configuración de todo el espacio de trabajo, archivos de configuración para la aplicación de nivel raíz y subcarpetas para los archivos de prueba y origen de la aplicación de nivel raíz.** 
+>
 > Directorio node_modules
+>
+> **El directorio node_modules contiene 
 >
 > Directorio src:
 > - index.html
