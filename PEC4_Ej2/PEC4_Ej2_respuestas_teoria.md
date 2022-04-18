@@ -2,6 +2,8 @@
 >
 > P1. (0.75 puntos) ¿Qué comando debes utilizar para crear un nuevo proyecto Angular utilizando Angular CLI denominado vinoteca? (A las preguntas que te haga Angular CLI puedes contestar utilizando las opciones por defecto). Explica brevemente la estructura y ficheros que ha generado Angular CLI:
 >
+> **El comando que hay que utilizar**
+>
 > Ficheros de configuración en la raíz del proyecto:
 > - tsconfing.app.json
 > - angular.json
