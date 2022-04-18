@@ -2,7 +2,7 @@
 >
 > P1. (0.75 puntos) ¿Qué comando debes utilizar para crear un nuevo proyecto Angular utilizando Angular CLI denominado vinoteca? (A las preguntas que te haga Angular CLI puedes contestar utilizando las opciones por defecto). Explica brevemente la estructura y ficheros que ha generado Angular CLI:
 >
-> **El comando que hay que utilizar es ng new. En este caso, para crear un nuevo proyecto llamado vinoteca tendremos que escribir el código ng new vinoteca**
+> **El comando que hay que utilizar es ng new. En este caso, para crear un nuevo proyecto llamado vinoteca tendremos que escribir el comando ng new vinoteca.**
 >
 > Ficheros de configuración en la raíz del proyecto:
 > - tsconfing.app.json
@@ -17,7 +17,7 @@
 >
 > Directorio node_modules
 >
-> **El directorio node_modules contiene 
+> **El directorio node_modules proporciona paquetes npm a todo el espacio de trabajo. Las dependencias de node_modules en todo el espacio de trabajo son visibles para todos los proyectos.**
 >
 > Directorio src:
 > - index.html
@@ -30,6 +30,14 @@
 > - Directorio app
 > - Ficheros app.component.*
 > - Fichero app.module.ts
+>
+> **El directorio src contiene los archivos de origen para el proyecto de aplicación de nivel raíz. Los archivos en el nivel superior de src/ sirven para el testing (test.ts) y la ejecución de la aplicación (index.html, main.ts, styles.css). Las subcarpetas contienen la fuente de la aplicación y la configuración específica de la misma.**
+>
+> **El subdirectorio app contiene los archivos de componentes en los que se definen la lógica y los datos de la aplicación.**
+>
+> **El subdirectorio assets contiene imágenes y otros archivos de activos que se copiarán tal cual cuando se crea la  aplicación.**
+>
+> **El subdirectorio environments contiene opciones de configuración de compilación para entornos de destino particulares. De forma predeterminada, existe un entorno de desarrollo estándar sin nombre y un entorno de producción ("prod"). Se pueden definir configuraciones de entorno de destino adicionales.**
 
 > P2. (0.25 puntos) Explica cada uno de los siguientes decoradores generados por Angular CLI, detallando cada una de las propiedades que se definen en:
 > - app.module.ts - @NgModule (declarations, imports, providers, bootstrap).
