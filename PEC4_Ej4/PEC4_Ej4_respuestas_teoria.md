@@ -21,10 +21,10 @@
 >
 >**En aplicaciones medianas o grandes esto puede llegar a ser un problema.**
 >
->**Para ello existe la función trackBy, capaz de encargarse de realizar un seguimiento de los cambios en el array y que solo haaga los cambios o el cambio en los items necesarios.**
-**Con esta función, cuando se agreguenn, muevan o eliminen elementos en el iterable, la directiva sólo volverá a redibujar los items que han cambiado.**
+>**Para ello existe la función trackBy, capaz de encargarse de realizar un seguimiento de los cambios en el array y que solo haga los cambios o el cambio en los items necesarios.**
+**Con esta función, cuando se agreguen, muevan o eliminen elementos en el iterable, la directiva sólo volverá a redibujar los items que han cambiado.**
 **La función recibe dos entradas, el índice de iteración y el ID del objeto del nodo (item).**
 >
 > P3. ¿Es posible ejecutar dos directivas estructurales simultáneamente? Explica la razón tanto si es si posible como si no lo es.
 >
-> **.**
+>**No es posible ejecutar dos directivas estructurales simultaneamente, ya que no es inmediatamente obvio cuál de los dos debe ejecutarse primero. Angular, en lugar de crear un orden innato en el que una directiva se ejecute antes que la otra, lo simplifica no permitiendolo en el mismo elemento.**
