@@ -2,9 +2,13 @@
 >
 > P1. Explica qué son y cuándo se deberían utilizar las siguientes variables locales de la directiva estructural NgFor:
 > • index
+>
 > • even
+>
 > • odd
+>
 > • first
+>
 > • last
 >
 > **El comando que hay que utilizar es ng new. En este caso, para crear un nuevo proyecto llamado vinoteca tendremos que escribir el comando ng new vinoteca.**
