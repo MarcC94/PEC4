@@ -19,7 +19,8 @@
 >
 > **Internamente, cada vez que se añade, modifica o elimina un item de un array, Angular a través de la directiva ngFor volverá a redibujar completemente el DOM desde cero. Y esto es una operación costosa.**
 **En aplicaciones medianas o grandes esto puede llegar a ser un problema.**
-**Para ello existe la función trackBy, capaz de encargarse de realizar un seguimiento de los cambios en el array y que solo haaga los cambios o el cambio en los items necesarios.**
+>
+>**Para ello existe la función trackBy, capaz de encargarse de realizar un seguimiento de los cambios en el array y que solo haaga los cambios o el cambio en los items necesarios.**
 **Con esta función, cuando se agreguenn, muevan o eliminen elementos en el iterable, la directiva sólo volverá a redibujar los items que han cambiado.**
 **La función recibe dos entradas, el índice de iteración y el ID del objeto del nodo (item).**
 >
