@@ -1,0 +1,21 @@
+.wineitem,h1 {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+img {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
