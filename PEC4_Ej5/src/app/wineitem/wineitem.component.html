@@ -1,0 +1,11 @@
+<h1>TPV Vinoteca!</h1>
+
+<div class = "wineitem">
+    <img src="{{wine.imageUrl}}" alt="">
+    <div>{{wine.name}}</div>
+    <div>{{wine.price}} €</div>
+    <div>{{wine.quantityInCart}}</div>
+    <button [disabled]="wine.quantityInCart === 0" (click)="decreaseAmount()">-</button>
+    <button (click)="increaseAmount()">+</button>
+
+</div>
