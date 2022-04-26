@@ -1,0 +1,8 @@
+<div [ngClass]="wine.isOnSale == true ? 'onSale' : '' ">
+    <img src="{{wine.imageUrl}}" alt="">
+    <div>{{wine.name}}</div>
+    <div>{{wine.price}} €</div>
+    <div>{{wine.quantityInCart}}</div>
+    <button *ngIf="wine.quantityInCart > 0" (click)="decreaseAmount()">-</button>
+    <button (click)="increaseAmount()">+</button>
+</div>

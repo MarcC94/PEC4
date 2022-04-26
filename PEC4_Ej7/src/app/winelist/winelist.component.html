@@ -1,0 +1,7 @@
+<h1>TPV Vinoteca!</h1>
+
+<div class="centro">
+    <div *ngFor="let wine of wines; let i = index">
+        <app-wineitem [wine]="wine" [posicion]="i"></app-wineitem>
+    </div>
+</div>

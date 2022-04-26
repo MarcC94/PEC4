@@ -1,0 +1,23 @@
+div {
+    width: 30%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.onSale{
+    background-color: blueviolet;
+}
+
+img {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}

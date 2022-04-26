@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PEC4_Ej3';
-
-
-  constructor(){
-
-  }
+  title = 'PEC4_Ej5';
 }
